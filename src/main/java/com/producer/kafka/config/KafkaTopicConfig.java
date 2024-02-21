@@ -9,7 +9,7 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     @Bean
-    public NewTopic BankTransactionTopic() {
+    public NewTopic TransactionTopic() {
         return TopicBuilder.name("transaction").build();
     }
 }
