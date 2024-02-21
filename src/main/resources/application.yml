@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:29092
+
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:TF32BshNjGxC29zj@projectbi.8ddj9tt.mongodb.net/?retryWrites=true&w=majority
+      database: kafka
